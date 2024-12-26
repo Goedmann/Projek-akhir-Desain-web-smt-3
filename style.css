@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman' Impact, Haettenschweiler, 'Arial Narrow Bold', 'sans-serif','Nirmala UI';
+}
+
+.utama {
+    background-color: #00008b;
+    width: 100%;
+    height: 80px;
+    color: white;
+    position: fixed;
+    
+}
+
+.logo img{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    height: 40px;
+    width: 130px;
+}
+
+
+.menu {
+    margin-left: 700px;
+    padding-top: 27px;
+    text-align: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+.menu ul li a {
+   
+    color: white;
+}
+.menu ul li a button {
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.menu ul li a button:hover {
+
+    background-color: #00008b;
+    color: white;
+    font-style: italic;
+    border: 1px solid white;
+}
+
+.kedua {
+    background-color: blue;
+    height: 600px;
+    text-align: center;
+    color: black;
+
+}
+.kedua img{
+    height: 150px;
+    margin-top: 100px;
+}
+
+.kedua h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+.kedua p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.kedua button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+.kedua button:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+h1 span:before{
+    content: '';
+    animation: gerak infinite 5s ease;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-family: 100px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    100% {
+        content: 'di Toko Bagus';
+    }
+}
+
+.profil {
+    background-color:#00008b;
+    width: 100%;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    text-align: center;
+}
+.box-toko img{
+    text-align: center;
+    padding-top:9px;
+    padding-bottom: 10px;
+    height: 60px;
+    width: 130px;
+}
+
+
+.tentang {
+    background-color: blue;
+    height: 600px;
+    text-align: center;
+    color: black;
+}
+
+.penjelasan {
+    background-color: blue;
+    height: 400px;
+    margin-left: 120px;
+    margin-right: 120px;
+    float: middle;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    
+}
+
+.penjelasan h1{
+    margin-bottom: 5px;
+    color: white;
+
+}
+.penjelasan p {
+    color: white;
+    padding-top: 5px;
+    font-family: arial;
+}
+
+.penjelasan h2{
+    margin-top: 30px;
+    margin-bottom: none;
+    color: white;
+}
+
+.produk h1 {
+    background-color: #00008b;
+    width: 100%;
+    height: 60px;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+
+}
+
+.produk {
+    text-align: center;
+    color:white;
+}
+.pilihan-menu {
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(59, 59, 255);
+    height: 40px;
+    text-align: center;
+    color: white;
+    
+}
+.pilihan-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+.pilihan-menu li a {
+    color: white;
+}
+.pilihan-menu li a button {
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: rgb(255, 255, 255);
+    background-color: blue;
+    font-size: 15px;
+}
+
+.pilihan-menu li a button:hover{
+    background-color: rgb(59, 59, 255);
+    color: white;
+    font-style: italic;
+    border: 1px solid white;
+}
+
+.produk1 img {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+
+}
+.produk2 img {
+    width: 80px;
+    height: 100px;
+    padding-top: 15px;
+}
+.produk3 img {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+}
+.produk4 img {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+
+}
+.produk5 img {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+
+}
+.produk6 img {
+    width: 80px;
+    height: 100px;
+    padding-top: 15px;
+}
+.produk7 img {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+}
+.produk8 img {
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+
+}
+
+.produk1, .produk2, .produk3, .produk4, .produk5, .produk6, .produk7, .produk8 {
+    width: 200px;
+    height: 250px;
+    background-color:aqua;
+    text-align: center;
+    padding-top: 30px 30px;
+    margin: 50px 20px 20px 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    float: left;
+    font-family: irmala ui;
+} 
+.produk1:hover, .produk2:hover, .produk3:hover, .produk4:hover, .produk5:hover, .produk6:hover, .produk7:hover, .produk8:hover {
+    background-color: blue;
+    color: white;
+}
+.produk h3, p{
+    margin-top: 5px ;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+.navigasi {
+    background-color:#00008b;
+    width: 100%;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+}
+.logo2 {
+    background-color: #00008b;
+    height: 50px;
+    text-align: center;
+}
+.logo2 img {
+    padding-top: 9px;
+    padding-bottom:30px;
+    height: 60px;
+    width: 130px;
+}
+.menu2 {
+    float: right;
+
+}
+.menu-saran li  {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 60px;
+}
+
+.saran {
+    background-color: blue;
+    height: 650px;
+    color:  #f3f3f3;
+    padding-top: 100px;
+}
+
+
+.feedback {
+    background: blue;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: var(--light-bg);
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+
+button:hover {
+    background-color: var(--accent-color);
+}
+
+
+@media (max-width: 480px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
